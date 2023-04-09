@@ -45,3 +45,7 @@ button {
 button:hover {
   background-color: #007571;
 }
+.chat__avatar {
+  width: 200px;
+  height: auto;
+}

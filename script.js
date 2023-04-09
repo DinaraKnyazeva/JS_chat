@@ -42,7 +42,7 @@ document.querySelector("form").addEventListener("submit", (event) => {
   newText.classList.add("chat__text");
 
   //получаю значения из инпутов формы
-
+  let elementName = userName.value;
   let elementLink = userLink.value;
   let elementComments = userComments.value;
 

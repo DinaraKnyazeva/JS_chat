@@ -66,12 +66,12 @@ document.querySelector("form").addEventListener("submit", (event) => {
 
   //добавляю аватары ч/з массив
   let arrAvatar = [
-    "image2.png",
-    "image3.png",
-    "image4.png",
-    "image5.png",
-    "image6.png",
-    "image7.png",
+    "img/image2.png",
+    "img/image3.png",
+    "img/image4.png",
+    "img/image5.png",
+    "img/image6.png",
+    "img/image7.png",
   ];
 
   //добавляю условие, если пользователь выбрал не показывать свое имя

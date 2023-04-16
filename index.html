@@ -9,18 +9,17 @@
   </head>
   <body>
     <div class="chat">
-      <div class="chat__result">
-        <h2>Чат</h2>
-        <div class="chat__container">
-        <div class="chat__avatar"></div>
-        <div class="chat__name"></div>
-        <div class="chat__comment"></div>
-        </div>
-        
-      </div>
-        <form>
-          <div class="chat__comment"></div>
-          <h1>Добавить комментарий</h1>
+      <h1>Чат</h1>
+      <button class="button">Добавить новый комментарий</button>
+      <div class="chat__container">
+        <div class="chat__new-comment"></div>
+        <form id="form">
+          <h2>Добавить комментарий</h2>
+          <p>Показывать Ваше имя?</p>
+          <input type="radio" id="yes" name="answer2" value="yes" />
+          <label for="yes">Да</label>
+          <input type="radio" id="no" name="answer2" value="no" />
+          <label for="no">Нет</label> <br />
           <label for="name">Введите ваше ФИО</label>
           <input type="text" id="name" />
           <label for="link">Введите ссылку вашего аватара</label>
